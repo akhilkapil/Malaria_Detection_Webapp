@@ -34,16 +34,15 @@ requirements.txt
 
 
 # Observations/Findings 
+![Misclassified Images](https://github.com/akhilkapil/Malaria_Detection_Webapp/blob/main/Images%20and%20Gifs/misclassification%20image.png)
 
 - The dataset was quite balanced as both the classes were equally disributed.
 - The accuracy obtained on test dataset was close to __96%__ which is quite good as the model was not overfitting.
-![Misclassified Images](https://github.com/akhilkapil/Malaria_Detection_Webapp/blob/main/Images%20and%20Gifs/misclassification%20image.png)
 - We can observe from the above subplots, how well our model is able to perform.
 
 # Model Interpretation using LIME
 - As for model explanaibility for an image, I was not able to link the functionality with Streamlit. therfore I couldn't host it on the app. 
-- But I was able to use LIME(model interpratiablity explorer) for this purpose. The image below shows the explanation of why and how our model was able to predict that particular 
-image. 
+- But I was able to use LIME(model interpratiablity explorer) to explain the model predictablitiy. The image below shows the explanation of why and how our model was able to predict the class for a random image. 
 
 ![Explian Prediction](https://github.com/akhilkapil/Malaria_Detection_Webapp/blob/main/Images%20and%20Gifs/LIME_image.PNG)
 __Observations for a random image:__
