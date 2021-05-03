@@ -11,8 +11,7 @@ deep learning model that reads infected and uninfected cells and classifies them
 Several effective image processing techniques were used to accurately segment tiles into individual cells.
 
 - I have developed the model using the custom CNN layers and hosted the app on Streamlit by deploying it on both Docker and Heroku.
-- You can visit the app by clicking on this ![Link](https://malariadetectionapp.herokuapp.com/)
-
+- You can visit the app by clicking on this https://malariadetectionapp.herokuapp.com/ .
 # Webapp Result
 
 ![Malaria Detection Webapp](https://github.com/akhilkapil/Malaria_Detection_Webapp/blob/main/Images%20and%20Gifs/demo_gif.gif)
