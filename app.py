@@ -3,13 +3,10 @@ from PIL import Image, ImageOps
 import numpy as np
 from tensorflow.keras.models import load_model
 import streamlit as st 
-from lime import lime_image
-import matplotlib.pyplot as plt
-import streamlit.components.v1 as components
-from tensorflow.keras.preprocessing import image as IM
-from skimage.segmentation import mark_boundaries
 
-model_path = 'C:/Users/akhil/Desktop/MalariaDetectionWebapp/malaria_calssifier_model.h5'
+
+
+model_path = 'malaria_calssifier_model.h5'
 model = load_model(model_path)
 
 def import_and_predict(image_data, model):
