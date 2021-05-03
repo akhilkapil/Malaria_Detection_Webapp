@@ -56,7 +56,7 @@ __Observations for a random image:__
 - __On the right image__, the area of super-pixels colored in green are the ones that increases the probability of our image belong to infeced class while the super pixel colored in red are the ones that decrease that probability. 
 - The yellow masked in the center of the image represent the presence of malaria cell, that's why even we can see the prediction for this image as __'Malaria Parasitized'__ as our model is paying attention to that area more specifically.
 
-## Run the app with Docker 
+## Run the app with Docker(Optional)
 
 Launch the streamlit app with docker:<br/>
          
