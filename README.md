@@ -10,8 +10,8 @@ deep learning model that reads infected and uninfected cells and classifies them
 - The images used in this work were whole slide images provided in the PEIR-VM repository built by the University of Alabama in Birmingham. The original whole slide image data contain significant amount of redundant information. In order to achieve good classification accuracy, image segmentation and de-noising are needed to extract only blood cells and remove those redundant image pixels simultaneously.
 Several effective image processing techniques were used to accurately segment tiles into individual cells.
 
-- I have developed the model using the custom CNN layers and hosted the app on Streamlit by deploying it on Docker(For some reason there were so many application error for it to 
-be deloyed on Heroku, thats why I am using Docker images for the deployment part).
+- I have developed the model using the custom CNN layers and hosted the app on Streamlit by deploying it on both Docker and Heroku.
+- You can visit the app by clicking on this ![Link](https://malariadetectionapp.herokuapp.com/)
 
 # Webapp Result
 
