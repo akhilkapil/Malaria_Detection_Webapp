@@ -1,6 +1,6 @@
 # Malaria Detection Webapp
 
-Save humans by detecting and deploying Image Cells that contain Malaria or not!, jk this is just to make a front-end for a classification model.
+Save humans by detecting and deploying Image Cells that contain Malaria or not!
 
 # Project Overview
 
