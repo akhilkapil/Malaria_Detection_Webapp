@@ -12,7 +12,7 @@ Several effective image processing techniques were used to accurately segment ti
 
 - I have developed the model using the custom CNN layers and hosted the app on Streamlit by deploying it on both Docker and Heroku.
 - You can visit the app by clicking on this https://malariadetectionapp.herokuapp.com/ .
-# Webapp Result
+# App Demo
 
 ![Malaria Detection Webapp](https://github.com/akhilkapil/Malaria_Detection_Webapp/blob/main/Images%20and%20Gifs/demo_gif.gif)
 
